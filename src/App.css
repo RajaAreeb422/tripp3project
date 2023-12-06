@@ -1,0 +1,287 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+h1, h2, h3 , h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+p{
+  font-family: 'Nunito', sans-serif;
+  color:#555;
+  font-weight: 400;
+}
+link{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+section.top-menu {
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img.logo {
+  max-width: 200px;
+}
+span.navbar-brand a {
+  text-decoration: none;
+  color: #fff;
+ font-size: 25px;
+ font-weight: 800;
+
+}
+
+
+
+a.login-btn.mx-3 {
+  background-color: #51c0ff;
+
+ color:  #fff;
+  padding: 3px 40px 7px;
+  border-radius:50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.6s ease all;
+}
+a.login-btn.mx-3:hover {
+  color: #fff;
+  background-color:#00FFFF;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+  transform: scale(1.03);
+}
+a.signup-btn{
+  background-color: #51c0ff;
+  color:  #fff;
+   padding: 3px 40px 7px;
+   border-radius:50px;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 500;
+   transition: 0.6s ease all;
+}
+
+a.signup-btn:hover{
+  color: #fff;
+  background-color:#00FFFF;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+  transform: scale(1.03);
+}
+
+
+a.DashBorad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+  background-color:#51c0ff;
+  padding: 3px 30px 7px;
+  border-radius: 50px;
+  margin: 0px 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.6s ease all;
+}
+
+a.DashBorad:hover{
+  color: #fff;
+  background-color:#00FFFF;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+  transform: scale(1.03);
+}
+.banner-sec {
+  text-align: center;
+ padding:100px 150px;
+}.banner-sec h1 {
+  font-size: 45px;
+  font-weight: 700;
+ 
+}
+
+/* dashboard css */
+.space50{
+  margin-top: 50px;
+}
+
+.col-lg-4.outer-box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  padding: 30px;
+  margin: 0px 10px;
+  width: 30%;
+  transition: 0.8s ease all;
+}
+
+.col-lg-4.outer-box:hover{
+  transform: translateY(-20px);
+  background-color: #00FFFF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+color: #fff;
+
+}
+
+.outer-box  h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform:capitalize;
+}
+
+.outer-box  p {
+  color:#00FFFF;
+  font-size:18px;
+  font-weight:600;
+  
+}
+.outer-box  p span{
+  color:#555;
+  font-size: 18px;
+}
+
+.col-lg-4.outer-box:hover p {
+  color: #fff;
+}
+
+.col-lg-4.outer-box:hover span{
+  color: #fff;
+}
+
+
+/* login css */
+.login-inner-box-one{
+  box-shadow: rgba(100, 100, 111, 0.2) 5px 5px 14px 0px;   
+      width: 100%;
+      border: 2px solid 
+  white;
+   padding:40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin: 50px auto !important;
+  }
+.login-outer-box-two {
+  
+
+  width: 100% !important;
+  margin: 0px 50px;
+ 
+ 
+}
+h3.emp-heading {
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.outer-inputss.mb-3.input-group {
+  background-color: #00FFFF;
+    color: #fff;
+}
+a.accountcreate {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+button.loginbtns{
+  
+  letter-spacing: 0.5px;
+  background-color:#51c0ff;
+  border: 2px solid #51c0ff; 
+  padding: 3px 30px 7px;
+  border-radius: 50px;
+  margin: 0px 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.6s ease all;
+}
+.serach-icons {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0px 12px;
+}
+
+.samebox-login p{
+  text-align: center;
+}
+
+
+/* people page css */
+.sameline-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sameline-box h3 {
+  font-size: 35px;
+  font-weight: 600;
+ letter-spacing: 1px;
+}
+.tablesbox {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 20px solid #00FFFF;
+  transition: 0.8s ease all;
+}
+
+.tablesbox:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: scale(1.05);
+  border: 20px solid #51c0ff;
+}
+
+button.filterbtnss{
+  background-color: #000;
+border: 2px solid #000;
+ color:  #fff;
+  padding: 5px 30px 7px;
+  border-radius:50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.6s ease all;
+}
+@media screen and (max-width: 600px) {
+  a.DashBorad{
+    margin: 5px ;
+    display: block;
+    width: 95%;
+    border-radius: 5px;
+  }
+  .sameline-box{
+    flex-direction: column;
+  }
+  .tablesbox {
+    overflow: scroll;
+}
+  .banner-sec {
+    
+    padding: 100px 20px;
+}
+
+
+  .col-lg-4.outer-box {
+    width: 92%;
+    margin: 10px 10px;
+  }
+}
+
+
